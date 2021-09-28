@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+logo img {
+  filter: drop-shadow(1px 1px 2px gray);
+}
+
+logo h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: 'Satisfy', cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  background-color: #050609ff;
+  box-shadow: 3px 3px 5px black;
+  position: sticky;
+  width: 100%;
+}
+
+nav ul {
+  display: inline-flex;
+  gap: 40px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  list-style: none;
+  padding-right: 60px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #774936ff;
+  font-size: 20px;
+}
+
+/***************************/
+/***********HERO************/
+
+header {
+  display: flex;
+  background-image: url(https://images.pexels.com/photos/5975428/pexels-photo-5975428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center;
+  background-repeat:inherit;
+  background-size: cover;
+  height: 900px;
+  max-width: 100%;
+  min-width: 50%;
+}
+
+h2 {
+  color: white;
+  font-size: 90px;
+  font-family: 'Lora', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 4px 4px 8px black;
+  padding: 10px;
+}
