@@ -6,7 +6,7 @@ Gallery and images
 **Logo:** 
 - Cheese: Flaticon (https://www.flaticon.com/authors/wanicon)
 - Charcuterie Board: Freepik (https://www.flaticon.com/freepik)
-- Heart Button: By Roundicons <div>Icons made by (https://www.flaticon.com/)
+- Heart Button: By Pixel Perfect (https://www.flaticon.com/)
 
 **Pictures:**
 - Hero Image: Photo by Eva Elijas from Pexels (https://www.pexels.com/@eva-elijas)
