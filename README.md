@@ -7,6 +7,8 @@ Gallery and images
 - Cheese: Flaticon (https://www.flaticon.com/authors/wanicon)
 - Charcuterie Board: Freepik (https://www.flaticon.com/freepik)
 - Heart Button: By Pixel Perfect (https://www.flaticon.com/)
+**Github Link:** https://icahpv.github.io/cpnt260-a3-gallery/ 
+**Github Pages:** https://github.com/Icahpv/cpnt260-a3-gallery.git 
 
 **Pictures:**
 - Hero Image: Photo by Eva Elijas from Pexels (https://www.pexels.com/@eva-elijas)
@@ -27,6 +29,8 @@ Gallery and images
 - Charcuterie w/ labels: Photo by Jennifer Murray from Pexels (https://www.pexels.com/@jennifer-murray-402778)
 
 **Fonts:**
+font-family: Lora
+font-family: Satisfy
 
 **Color Scheme:**
 --rich-black-fogra-39: #050609ff;
@@ -38,6 +42,13 @@ Gallery and images
 
 
 **Problems Encountered:**
+
+1. Images: could not get them to the right size. Could not also put them in a container each.
+2. Centering images: Had a hard time finding out how to center and make one image per three columns in desktop.
+- Solution: Justify-items: center;
+- I've been using justify-content.
+3. Heart button: Could not figure out the check box hack. I made it hover to grayscale to make it look clickable and I changed the cursor as well.
+
 
 
 

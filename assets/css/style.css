@@ -23,26 +23,31 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 20px;
+  padding: 10px;
   background-color: #050609ff;
   box-shadow: 3px 3px 5px black;
-  position: sticky;
+  position: absolute;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 nav ul {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
   color: white;
   font-size: 18px;
   font-family: 'Lora', serif;
   list-style: none;
-  padding-right: 60px;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 nav a {
   text-decoration: none;
   color: white;
+  
 }
 
 nav a:hover {
@@ -57,7 +62,7 @@ header {
   display: flex;
   background-image: url(https://images.pexels.com/photos/5975428/pexels-photo-5975428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-position: center;
-  background-repeat:inherit;
+  background-repeat: inherit;
   background-size: cover;
   height: 900px;
   max-width: 100%;
@@ -66,12 +71,12 @@ header {
 
 h2 {
   color: white;
-  font-size: 90px;
+  font-size: 70px;
   font-family: 'Lora', serif;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: auto;
+  /*transform: translate(-50%, -50%);*/
   text-align: center;
   text-shadow: 4px 4px 8px black;
   padding: 10px;
@@ -79,26 +84,27 @@ h2 {
 
 h3 {
   text-align: center;
+  font-size: 5rem;
+  font-family: 'Satisfy', cursive;
+  color: #774936ff;
+  text-shadow: 1px 1px 2px black;
 }
 
 /*************************************/
 
-section {
+article {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-auto-rows: min-content;
+  grid-gap: 70px;
   justify-items: center;
-  align-items: initial;
-  gap: 70px;
-  max-width: 50%;
+  padding-bottom: 80px;
 }
 
 figure {
   max-height: 350px;
   max-width: 250px; 
-  padding: 0px;
   text-align: center;
-  align-items: center;
 }
 
 figure img {
@@ -106,13 +112,44 @@ figure img {
   width: 100%;
   height: 100%; 
   border-radius: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+figcaption {
+  font-size: 16px;
+  font-family: 'Lora', serif;
+  background-color: #d69f7eff;
+  padding: 5px;
 }
 
 .heart-button {
   width: 20px;
   height: 20px;
+  padding: 5px;
+  filter: drop-shadow(1px 1px 2px gray);
+  cursor: pointer;
 }
 
+.heart-button:hover {
+  filter: drop-shadow(2px 2px 3px black);
+  filter: grayscale(1);
+  width: 18px;
+  height: 18px;
+}
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #050609ff;
+  padding: 2rem;
+}
 
-/*****************************************/
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
