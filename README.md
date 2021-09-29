@@ -48,12 +48,15 @@ font-family: Satisfy
 - Solution: Justify-items: center;
 - I've been using justify-content.
 3. Heart button: Could not figure out the check box hack. I made it hover to grayscale to make it look clickable and I changed the cursor as well.
+4. Footer: I wanted to center my footer but there's a padding that I could not find where it's from, I settled for a different design.
 
 
 
 
 **Attributions:**
-
+John Paul Adobas: Horizontal Scroll on mobile.
+Norvillie Villaruel: Layout advice.
+Ashlyn Knox: For teaching me everything in this repo. 
 
 
 

@@ -157,6 +157,5 @@ footer ul {
   display: flex;
   list-style: none;
   justify-content: flex-start;
-  gap: 20px;
-  
+  gap: 20px; 
 }
