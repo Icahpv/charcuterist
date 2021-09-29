@@ -1,11 +1,11 @@
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 logo {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 logo img {
@@ -18,12 +18,12 @@ logo h1 {
   font-family: 'Satisfy', cursive;
 }
 
-nav {
+.main-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 10px;
+  /* padding: 10px; */
   background-color: #050609ff;
   box-shadow: 3px 3px 5px black;
   position: absolute;
@@ -35,13 +35,14 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
   color: white;
   font-size: 18px;
   font-family: 'Lora', serif;
   list-style: none;
-  padding-left: 7rem;
-  padding-right: 7rem;
+  /*padding-left: 7rem;
+  padding-right: 7rem; */
 }
 
 nav a {
@@ -99,6 +100,7 @@ article {
   grid-gap: 70px;
   justify-items: center;
   padding-bottom: 80px;
+  max-width: 100%;
 }
 
 figure {
@@ -140,16 +142,15 @@ figcaption {
 
 footer {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  text-align: center;
+ /* align-items: flex-start; */
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #050609ff;
-  padding: 2rem;
 }
 
 footer ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  justify-content: center;
 }
